@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+img {
+    height: 50px;
+
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.stu {
+    color: rgb(255, 115, 0);
+}
+
+.stu {
+    margin-right: 20px;
+}
+
+#nav3 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px ridge rgb(255, 115, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 85, 0, 0.712);
+}
+
+.h-1,
+.h-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.heading {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.cont-1,
+.cont-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div:hover {
+    border: 2px ridge rgb(255, 115, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 85, 0, 0.712);
+}
+
+#img {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('img1.svg');
+    height: 35vh;
+    margin-left: 30px;
+    margin-right: 30p;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-2 {
+    background-color: #f4f4f4;
+    height: 75vh;
+    width: 80vw;
+
+    display: flex;
+    border: 0px ridge black;
+    margin-left: 20vh;
+    margin-right: 20vh;
+
+}
+
+#about {
+    height: 40vh;
+    width: 40vw;
+    text-align: start;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.img {
+    height: 60vh;
+    width: 50vw;
+    background-image: url('img2.svg');
+}
+
+#span {
+    color: rgb(255, 115, 0);
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+}
+#main-3{
+    display: flex;
+    border: 1px ridge #f4f4f411;
+    background-color: #f4f4f44e;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#clg{
+    display: flex;
+    justify-content: space-between;
+}
+#stude-reach{
+    display: flex;
+    justify-content: space-between;
+}
+#stud-comm{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    height: 40%;
+    width: 40%;
+    font-size: medium;
+}
+.img3{
+    height: 350px;
+    width: 300px;
+    background-image: url('img4.webp');
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.clg-div-1{
+    display: flex;
+    justify-content: space-between;
+}
+#heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.clg-div-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#h-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    color:  rgb(255, 115, 0);
+}
+#page6{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+#pov{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    color:  rgb(255, 115, 0);
+}
+#no1-1{
+    display: flex;
+    justify-content: space-around;
+}
+#no1{
+    height: 25%;
+    width: 25%;
+    background-color: #e9404000;
+ 
+}
+#no2{
+    height: 25%;
+    width: 25%;
+   
+}
+#no2-2{
+    display: flex;
+    justify-content: space-around;
+}
+#no3{
+    height: 25%;
+    width: 25%;
+    background-color: #e9404000;
+ 
+}
+#no4{
+    height: 25%;
+    width: 25%;
+   
+}
+#no1:hover{
+    background-color: black;
+    color: red;
+}
+#no2:hover{
+    background-color: black;
+    color: red;
+}
+#no3:hover{
+    background-color: black;
+    color: red;
+}
+#no4:hover{
+    background-color: black;
+    color: red;
+}
+#s{
+    margin-left: 50px;
+    margin-top: 50px;
+}
